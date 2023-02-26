@@ -119,7 +119,7 @@ class GUI:
         self.entryMsg.focus()
 
         # Create a Send Button
-        self.buttonMsg = Button(self.labelBottom,text="Gönder",font="Times 10 bold",width=20,bg="black",fg="red",command=lambda: self.sendButton(self.entryMsg.get()))
+        self.buttonMsg = Button(self.labelBottom,text="Send",font="Times 10 bold",width=20,bg="black",fg="red",command=lambda: self.sendButton(self.entryMsg.get()))
         self.buttonMsg.place(relx=0.77,rely=0.008, relheight=0.06,relwidth=0.22)
         self.textCons.config(cursor="arrow")
         scrollbar = Scrollbar(self.textCons,background="yellow")
