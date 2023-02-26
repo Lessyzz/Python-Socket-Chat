@@ -1,5 +1,5 @@
 # Python-Socket-Chat
-Python Chat with Socket!
+Chat with Python Socket!
 
 --------
 You can set special password for this application "Client.py - Line 83". Default is "Password".
