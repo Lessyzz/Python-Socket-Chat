@@ -80,7 +80,7 @@ class GUI:
         self.Window.mainloop()
     def goAhead(self, name):
         global proccess
-        if self.passwdEntry.get() == "onurc123":
+        if self.passwdEntry.get() == "Password":
             proccess = 1
         else:
             byLabel = Label(self.login, bg="black", fg="magenta", text="Wrong password!", font="Times 8")
